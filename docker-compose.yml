@@ -23,6 +23,8 @@ services:
       - "--collector.filesystem.mount-points-exclude=^/(sys|proc|dev|host|etc)($$|/)"
     expose:
       - 9100
+    ports:
+      - "9100:9100"
     networks:
       - monitoring
 
@@ -42,6 +44,8 @@ services:
       - "--web.enable-lifecycle"
     expose:
       - 9090
+    ports:
+      - "9090:9090"
     networks:
       - monitoring
 
