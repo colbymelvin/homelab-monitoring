@@ -3,7 +3,7 @@ set -eou pipefail
 
 # Install podman
 sudo apt-get update
-sudo apt-get -y install podman
+sudo apt-get -y install podman podman-compose
 
 # Todo install prometheus
 
