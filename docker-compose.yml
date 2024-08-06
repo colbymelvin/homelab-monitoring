@@ -46,7 +46,7 @@ services:
       - monitoring
 
   grafana:
-    image: grafana/grafana-oss
+    image: docker.io/grafana/grafana-oss
     container_name: grafana
     restart: unless-stopped
     ports:

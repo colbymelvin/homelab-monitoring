@@ -13,7 +13,8 @@ In the case of a Raspberry Pi, it is optional but preferred to serve the root fi
 ## Instructions
 
 - Clone this repo
-- `./install.sh` to install dependencies and systemd services
+- `./install.sh` to install dependencies
+- `podman-compose up -d`
 
 ## Goals
 
