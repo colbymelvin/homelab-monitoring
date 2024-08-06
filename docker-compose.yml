@@ -9,7 +9,7 @@ volumes:
 
 services:
   node-exporter:
-    image: prom/node-exporter:latest
+    image: docker.io/prom/node-exporter:latest
     container_name: node-exporter
     restart: unless-stopped
     volumes:
@@ -27,7 +27,7 @@ services:
       - monitoring
 
   prometheus:
-    image: prom/prometheus:latest
+    image: docker.io/prom/prometheus:latest
     container_name: prometheus
     restart: unless-stopped
     volumes:
