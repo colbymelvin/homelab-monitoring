@@ -1,13 +1,6 @@
 #!/bin/bash
 set -eou pipefail
 
-# Install podman
+# Install podman and podman-compose
 sudo apt-get update
-sudo apt-get -y install podman
-
-# Todo install prometheus
-
-# Todo install grafana
-
-# Todo install tailscale if ENV var present
-
+sudo apt-get -y install podman podman-compose

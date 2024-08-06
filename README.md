@@ -2,7 +2,7 @@
 
 A repository containing the monitoring stack for my personal, Raspberry Pi based homelab.
 
-The monitoring stack is run in containers as systemd services via [Podman Quadlets](https://docs.podman.io/en/latest/markdown/podman-systemd.unit.5.html).
+The monitoring stack is run via [Podman](https://podman.io/) / [podman-compose](https://github.com/containers/podman-compose).
 
 ## Environmental assumptions
 
