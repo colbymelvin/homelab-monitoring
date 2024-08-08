@@ -1,0 +1,10 @@
+[Unit]
+Description=homelab-monitoring service
+After=network.target
+After=network-online.target
+
+[Service]
+ExecStart=/usr/bin/podman-compose -f /home/pi/homelab-monitoring/docker-compose.yml up -d
+
+[Install]
+WantedBy=multi-user.target
