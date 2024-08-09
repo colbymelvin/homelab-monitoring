@@ -19,7 +19,7 @@ In the case of a Raspberry Pi, it is optional but preferred to serve the root fi
 
 ## Goals
 
-- Lightweight with minimal bloat
+- Lightweight with minimal bloat / configuration
 - Ease of use
 - Maintainability
-- Set it an forget it (services automatically run on system boot / restart)
+- Set it and forget it (services automatically run on system boot / restart)
