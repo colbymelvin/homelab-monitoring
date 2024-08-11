@@ -53,7 +53,7 @@ services:
     container_name: grafana
     restart: unless-stopped
     environment:
-      - GF_INSTALL_PLUGINS=yesoreyeram-infinity-datasource
+      GF_INSTALL_PLUGINS: yesoreyeram-infinity-datasource
     volumes:
       - grafana_data:/var/lib/grafana
     ports:
