@@ -1,3 +1,6 @@
+#!/bin/bash
+set -eou pipefail
+
 # Bring the stack down
 sudo /usr/bin/podman-compose down
 
